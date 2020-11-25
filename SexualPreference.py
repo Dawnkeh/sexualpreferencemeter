@@ -13,11 +13,12 @@ def func(pref, name):
         print(name.capitalize() + " is a gay asshole idiot who doesn't know what a number is.")
         funk()
 def funk():
+    os.system("pause")
     os.system('color 03')
-    name = input('''What is your name
-    ''')
-    pref = input('''How Gay are you 1-10?
-    ''')
+    os.system("cls")
+    name = input('What is your name: ')
+    pref = input('How Gay are you 1-10?: ')
     func(pref, name)    
-funk()
-os.system('pause')
+while True:
+    funk()
+    os.system('pause')
